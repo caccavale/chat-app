@@ -2,6 +2,8 @@
 
 ___This requires Python 3.7 or newer.___
 
+This was a test in building a "secure" chat app using only networking and crypto primitives.  All networking is done over UDP sockets and all crypto is from `cryptography.hazmat`.  It shouldn't be used, but was a learning exercise in designing and implementing a "secure" protocol from near scratch.  There are still `TODO`s sprinkled around and I'm sure that it has some vulnerabilites.
+
 ### Installation:
 I recommend using a virtual environment, though it is not necessary.
 ```
